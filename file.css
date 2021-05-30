@@ -1,0 +1,62 @@
+h1{
+    text-align: center;
+}
+div{
+    border: 2px solid black;
+    background-color: coral;
+   float: left;
+    
+    width: 30%;
+    margin: 10px;
+   
+   
+   
+}
+p{
+    padding: 10px;
+    padding-top: 20px;
+}
+.food{
+   border: 2px solid black;
+   background-color: brown;
+   float: right top;
+   
+  
+      
+ }
+ h3{
+     
+     border: 2px solid black;
+     background-color: brown;
+     width: 100px;
+     text-align: center;
+    margin: 0;
+    float:right  ;
+    clear:left;
+ }
+ @media(min-width: 768px) and (max-width:991px)
+ {
+     .chicken{
+         width: 45%;
+         margin: 2%;
+     }
+     .beef{
+         width: 45%;
+         margin: 2%;
+     }
+     .sushi{
+         width: 90%;
+         margin: 3%;
+     }
+ }
+ @media(max-width:767px){
+     .chicken{
+         width: 100%;
+     }
+     .beef{
+         width: 100%;
+     }
+     .sushi{
+         width: 100%;
+     }
+ }
